@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+}
+
+.link:link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+.link:hover {  
+  color: lightsalmon;
+  text-decoration: overline;
+}
+
+.link:active{
+  text-decoration: overline;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.App-body {
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  background-color: #000000;
+  display: flex;
+  min-height: 4vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.hogwarts {
+  height: 89vh;
+  background-image: url(./images/hogwarts.gif);
+  background-repeat: no-repeat, repeat;
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+}
+
+img {
+  width: 100px;
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.houses {
+  height: 93vh;
+  background-image: url(./images/houses.gif);
+  background-repeat: no-repeat, repeat;
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  margin: 15px;
+}
+
+.box {
+  margin: 30px;
+  background-color: #000000;
+  opacity: 0.9;
+}
+
+.subjects {
+  height: 93vh;
+  background-image: url(./images/subjects.gif);
+  background-repeat: no-repeat, repeat;
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+}
+
+.convbox {
+  height: 320px;
+  margin: 10px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  margin-left: 100px;
+}
+
+.converter {
+  width: 60px;
+  height: 50px;
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+input.currencyInput {
+  width: 50px;
+}
+
+.shops {
+  height: 93vh;
+  background-image: url(./images/shops.jpg);
+  background-repeat: no-repeat, repeat;
+  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0; 
+  margin: 0;
+}
+
+ul.no-bullets li {
+  display: inline;
+  margin: 1em;
+}
+
+.container {
+  color: white;
+  font-size: 50px;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 300px;
+  text-shadow: 5px 5px 10px black;
+}
+
+.containerform {
+  width: 400px;
+  height: 500px;
+  background-color: black;
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px black;
+  text-align: left;
+  margin: auto;
+}
+
+.emailform {
+  width: 180px;
+  height: 100px;
+  background-color: black;
+  opacity: 0.8;
+  box-shadow: 5px 5px 10px black;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form {
+  width: auto;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  position: absolute;
+  padding: 40px 20px 0 60px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.name {
+  width: 100%;
+}
+
+select {
+  width: 103.5%;
+}
+
+button {
+  color: white;
+  padding: 10px 20px;
+  margin: 20px auto;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 550;
+  letter-spacing: 2px;
+  background-image: linear-gradient(to right, #FF512F, #F09819)
+}
+
+button:hover {
+  background-image: linear-gradient(to left, #FF512F, #F09819)
+}
+
+.rounded {
+  border-radius: 30px;
+}
+
+.fullrounded {
+  border-radius: 100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
